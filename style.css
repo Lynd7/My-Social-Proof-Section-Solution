@@ -9,7 +9,7 @@
 
     --fw-400:400;
     --fw-500:500;
-    --fw-700:700;
+    --fw-700:700; 
 
     --ff-all: 'League Spartan', sans-serif;
 }
@@ -39,10 +39,10 @@ main {
     max-width: 22rem;
     margin-left: auto;
     margin-right: auto;
-}
+} 
 .text p {
     color: var(--clr-neutral-magenta-300);
-}
+} 
 
 /* --- Ratings styles --- */
 .ratings {
@@ -65,7 +65,7 @@ main {
     font-weight: var(--fw-700);
     border-radius: 5px;
     padding: 1rem;
-}
+} 
 .ratings li .stars {
     display: flex;
     justify-content: center;
@@ -133,8 +133,8 @@ main {
    }
     .text h1 {
         font-size: 3em; 
-        margin: 0 0 1.5rem 0;
-    }
+        margin: 0 0 1.5em 0;
+    } 
     .ratings ul {
         margin-left: 25%;
     }
@@ -143,16 +143,16 @@ main {
         align-items: center;
         padding-left: 2em;
         gap: 1.25em;
-        max-width: 25rem; 
+        max-width: 25em; 
     }
     .ratings li .stars{
         margin: 0;
-    }
+    } 
     .ratings li:nth-of-type(2){
-        transform: translateX(4rem);
+        transform: translateX(4em);
     }
     .ratings li:nth-of-type(3){
-        transform: translateX(8rem);
+        transform: translateX(8em);
     }
     .quote_container {
         display: grid;
@@ -160,10 +160,10 @@ main {
         gap: 1.6em;
     } 
     .quote_cards:nth-of-type(2) {
-        transform: translateY(1rem);
+        transform: translateY(1em);
     }
     .quote_cards:nth-of-type(3) {
-        transform: translateY(2rem);
+        transform: translateY(2em);
     }
 }
 
